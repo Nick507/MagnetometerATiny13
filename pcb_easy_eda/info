@@ -1,0 +1,324 @@
+{
+  "uuid": "a0f4f797c1d1893b408e16bfd1a42fcd",
+  "path": "Offline/MagnetometerATiny13",
+  "name": "MagnetometerATiny13",
+  "content": "",
+  "created_at": "2024-08-12 16:38:17",
+  "updated_at": "2024-08-12 23:12:16",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "33f3b808d0cc41730b501d917898697f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "81b3e4ade61c458d94baacada7d47be3": 1,
+        "02c979a1b2d54d5584416c6890a23629": 1,
+        "0783bf3e5e8a40d79bff27bb118bbc24": 2,
+        "67146a27102e4fcbaed86f69073c4430": 1,
+        "1b8a19923457464192261252173af236": 1,
+        "2fa53d590f544429ab8fcbd581d715c1": 2,
+        "404aa9221ff94de597b8734806e7c74f": 8,
+        "3f7305190965463aa93142b2160dacaf": 1,
+        "c480d7dbf2f24d799857e1d1a6ba89b8": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22u",
+          2,
+          "C1206",
+          "C1,C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          8,
+          "HDR-M-2.54_1X1",
+          "J1,J2,J3,J4,J5,J6,J7,J8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C81276"
+          }
+        ],
+        [
+          "SSD1306-OLED-128X64-I2C",
+          1,
+          "SSD1306-OLED-128X64-I2C",
+          "LCD1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "2.2k",
+          1,
+          "R0805",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "16k",
+          1,
+          "R0805",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "latching switch TH-6p",
+          1,
+          "LATCHING SWITCH 6PIN",
+          "S1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "TL2230EEF100"
+          }
+        ],
+        [
+          "ATTINY13A-PU",
+          1,
+          "DIP-8_L9.3-W6.4-P2.54-LS7.6-BL-1",
+          "U1",
+          {
+            "Manufacturer Part": "ATTINY13A-PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C94341"
+          }
+        ],
+        [
+          "MT3608B",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+          "U2",
+          {
+            "Manufacturer Part": "MT3608B",
+            "Manufacturer": "西安航天民芯",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19189893"
+          }
+        ],
+        [
+          "22uH",
+          1,
+          "IND-SMD_L10.8-W10.0",
+          "U3",
+          {
+            "Manufacturer Part": "YSPI1365TY-470M",
+            "Manufacturer": "YJYCOIN(益嘉源)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C20613207"
+          }
+        ],
+        [
+          "1N5822/SMD2.8*4.5",
+          1,
+          "DO-214AC_L4.3-W2.7-LS5.0-RD",
+          "U4",
+          {
+            "Manufacturer Part": "1N5822/SMD2.8*4.5",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900015672"
+          }
+        ]
+      ],
+      "updateTime": 1723493536,
+      "createTime": 1723469897,
+      "histories": [],
+      "created_at": "2024-08-12 16:38:17",
+      "updated_at": "2024-08-12 23:12:16"
+    },
+    {
+      "uuid": "c7f7841da65f5f8f7318ef30feb899af",
+      "puuid": "a0f4f797c1d1893b408e16bfd1a42fcd",
+      "title": "PCB_MagnetometerATiny13",
+      "filename": "PCB_MagnetometerATiny13.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7bdec8012728462a85919a4d0d033579": 2,
+        "f3d2a2ecf658447dac746eb15158a989": 1,
+        "7f49005e8ff847fca698dc45955b87a6": 1,
+        "cdf179e5da5a44198a8794374713c374": 1,
+        "19c77e72422b43b59c26b9fa67af5de4": 8,
+        "c0d0de2a89f24b6aa00858b86433a230": 1,
+        "f84a40ad934246a3b801855f4fbd9b24": 1,
+        "b60f399a7a7e41848b2be1eb49c79141": 2,
+        "20ee06a8a35f4e4ca1a59af4718e9d3d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22u",
+          2,
+          "C1206",
+          "C1,C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N5822",
+          1,
+          "SS34",
+          "D1",
+          {
+            "Manufacturer Part": "1N5822",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2476"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          5,
+          "HDR-M-2.54_1X1",
+          "J1,J2,J3,J4,J5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C81276"
+          }
+        ],
+        [
+          "K4-6×6_TH",
+          1,
+          "KEY-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "KEY1",
+          {
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684"
+          }
+        ],
+        [
+          "SSD1306-OLED-128X64-I2C",
+          1,
+          "SSD1306-OLED-128X64-I2C",
+          "LCD1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "2.2k",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "16k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ATTINY13A-PU",
+          1,
+          "DIP-8_L9.3-W6.4-P2.54-LS7.6-BL-1",
+          "U1",
+          {
+            "Manufacturer Part": "ATTINY13A-PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C94341"
+          }
+        ],
+        [
+          "MT3608B",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+          "U2",
+          {
+            "Manufacturer Part": "MT3608B",
+            "Manufacturer": "西安航天民芯",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19189893"
+          }
+        ],
+        [
+          "22uH",
+          1,
+          "IND-SMD_L13.2-W12.9",
+          "U3",
+          {
+            "Manufacturer Part": "YSPI1365TY-470M",
+            "Manufacturer": "YJYCOIN(益嘉源)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C20613207"
+          }
+        ]
+      ],
+      "updateTime": 1723493327,
+      "createTime": 1723473717,
+      "histories": [],
+      "created_at": "2024-08-12 17:41:57",
+      "updated_at": "2024-08-12 23:08:47"
+    }
+  ],
+  "sort": [],
+  "title": "MagnetometerATiny13",
+  "foldername": "MagnetometerATiny13",
+  "schfilename": "MagnetometerATiny13.json",
+  "schfilemtime": 1723493536739
+}
